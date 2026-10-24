@@ -1,0 +1,8 @@
+[package]
+name = "goConverter"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+polars = { version = "0.55", features = ["parquet", "polars-io", "lazy"] }
+calamine = "0.37"
